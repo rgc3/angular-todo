@@ -15,3 +15,12 @@ h1 {
 small {
   font-size: 40px;
 }
+
+ol {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 24px;
+}
+
+.fa-trash {
+  color: #999;
+}
