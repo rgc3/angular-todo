@@ -16,10 +16,6 @@ small {
   font-size: 40px;
 }
 
-ol {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 24px;
-}
 
 hr {
   margin-top: 0px;
@@ -27,9 +23,13 @@ hr {
 
 li {
   display: block; width: 100%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 24px;
+  margin-top: -10px;
 }
 
 i.fa {
   float: right;
   color: #333;
+  padding-right: 5px;
 }
