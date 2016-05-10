@@ -33,11 +33,18 @@ function MainController($scope) {
     }
   ];
   $scope.creator = "Robert";
-  $scope.addTask = function(newTask) {
+  $scope.addTask = function(newTask, dueDate) {
     $scope.tasks.push({
       title: newTask,
-      completed: false
+      completed: false,
+      dueDate: dueDate ? moment(dueDate).unix(): null
     });
     $scope.newTask = "";
+  };
+  $scope.displayDate = function(unixTimestamp) {
+    if (!unixTimestamp) {
+      return null;
+    }
+    return moment.unix(unixTimestamp).format('MM/DD/YYYY');
   };
 }
