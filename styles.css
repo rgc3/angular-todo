@@ -21,6 +21,10 @@ ol {
   font-size: 24px;
 }
 
+hr {
+  margin-top: 0px;
+}
+
 .fa-trash {
   color: #999;
 }
