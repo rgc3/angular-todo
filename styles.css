@@ -25,6 +25,11 @@ hr {
   margin-top: 0px;
 }
 
-.fa-trash {
-  color: #999;
+li {
+  display: block; width: 100%;
+}
+
+i.fa {
+  float: right;
+  color: #333;
 }
